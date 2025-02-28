@@ -1,3 +1,5 @@
+! Title: videos&audio blocker 
+
 *##+js(set-constant, HTMLMediaElement.prototype.autoplay, false)
 *##+js(set-constant, HTMLMediaElement.prototype.preload, "none")
 *##+js(set-constant, HTMLVideoElement.prototype.autoplay, false)
