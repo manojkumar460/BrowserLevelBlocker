@@ -1,50 +1,173 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--bg-color);
+    color: var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding: 20px;
+    text-align: center;
+    transition: background 0.3s ease;
+}
+
+/* Theme Variables */
+:root {
+    --bg-color: #121212;
+    --text-color: #f3f3f3;
+    --card-bg: #1e1e2d;
+    --button-bg: #ff6f61;
+    --button-hover: #ffa07a;
+}
+
+.light-theme {
+    --bg-color: #f8f9fa;
+    --text-color: #333;
+    --card-bg: #ffffff;
+    --button-bg: #007bff;
+    --button-hover: #0056b3;
 }
 
 .container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 90%;
-    max-width: 500px;
+    width: 100%;
+    max-width: 700px;
+    background: var(--card-bg);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
 }
 
 h1 {
-    color: #333;
+    font-size: 24px;
+    background: linear-gradient(45deg, var(--button-bg), var(--button-hover));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
-p {
-    color: #666;
-    margin-bottom: 20px;
+#theme-toggle {
+    background: var(--button-bg);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#theme-toggle:hover {
+    background: var(--button-hover);
+}
+
+h2, p {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
 }
 
 .links {
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
-.links a {
-    text-decoration: none;
-    color: #007bff;
-    font-weight: bold;
-    margin: 10px 0;
+.link-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--card-bg);
     padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateY(20px);
+    opacity: 0;
+    animation: slideIn 0.8s ease-in-out forwards;
+}
+
+.link-box a {
+    flex-grow: 1;
+    text-decoration: none;
+    color: var(--button-bg);
+    font-weight: bold;
+}
+
+.link-box button {
+    background: var(--button-bg);
+    color: white;
+    border: none;
+    padding: 8px 12px;
     border-radius: 5px;
-    background: #f1f1f1;
+    cursor: pointer;
     transition: 0.3s;
 }
 
-.links a:hover {
-    background: #007bff;
+.link-box button:hover {
+    background: var(--button-hover);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Confirmation Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: var(--card-bg);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal-content button {
+    margin: 10px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#confirm-btn {
+    background: var(--button-bg);
+    color: white;
+}
+
+#cancel-btn {
+    background: gray;
     color: white;
 }
