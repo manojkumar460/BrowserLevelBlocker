@@ -4,18 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ad Blocker Lists</title>
-    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Ad Blocker Lists</h1>
-        <p>Organized collection of advanced ad-blocking lists.</p>
+<div class="container">
+    <nav>
+        <img src="images/logo.png" alt="Ad Blocker Logo" class="logo">
+        <h1>Browser Level Ad Blocker</h1>
+        <button id="theme-toggle">Switch Theme</button>
+    </nav>
+
+    <section>
+        <h2 class="fade-in">Advanced Ad Blocker Lists</h2>
+        <p class="fade-in">Select from the most powerful ad-blocking lists to enhance your browsing experience.</p>
+
         <div class="links">
-            <a href="https://raw.githubusercontent.com/manojkumar460/BrowserLevelBlocker/refs/heads/main/Blockers/Ads-Trackers-Analytics.txt" target="_blank">Ads, Trackers & Analytics</a>
-            <a href="https://raw.githubusercontent.com/manojkumar460/BrowserLevelBlocker/refs/heads/main/Blockers/imagesvideos.txt" target="_blank">Image & Video Blocking</a>
-            <a href="https://raw.githubusercontent.com/manojkumar460/BrowserLevelBlocker/refs/heads/main/Blockers/ultra-advanced-adblock.txt" target="_blank">Ultra Advanced Ad Block</a>
-            <a href="https://raw.githubusercontent.com/manojkumar460/BrowserLevelBlocker/refs/heads/main/Blockers/video-audio-stop.txt" target="_blank">Video & Audio Stop</a>
+            <div class="link-box slide-in">
+                <a href="https://raw.githubusercontent.com/manojkumar460/BrowserLevelBlocker/refs/heads/main/Blockers/Ads-Trackers-Analytics.txt" target="_blank">
+                    Ads, Trackers & Analytics
+                </a>
+                <button onclick="confirmDownload('Ads-Trackers-Analytics.txt')">Download</button>
+            </div>
+            <div class="link-box slide-in">
+                <a href="https://raw.githubusercontent.com/manojkumar460/BrowserLevelBlocker/refs/heads/main/Blockers/imagesvideos.txt" target="_blank">
+                    Image & Video Blocking
+                </a>
+                <button onclick="confirmDownload('imagesvideos.txt')">Download</button>
+            </div>
+            <div class="link-box slide-in">
+                <a href="https://raw.githubusercontent.com/manojkumar460/BrowserLevelBlocker/refs/heads/main/Blockers/ultra-advanced-adblock.txt" target="_blank">
+                    Ultra Advanced Ad Block
+                </a>
+                <button onclick="confirmDownload('ultra-advanced-adblock.txt')">Download</button>
+            </div>
+            <div class="link-box slide-in">
+                <a href="https://raw.githubusercontent.com/manojkumar460/BrowserLevelBlocker/refs/heads/main/Blockers/video-audio-stop.txt" target="_blank">
+                    Video & Audio Stop
+                </a>
+                <button onclick="confirmDownload('video-audio-stop.txt')">Download</button>
+            </div>
         </div>
+    </section>
+
+    <footer>
+        <p>Designed by Manojkumar | © 2025</p>
+    </footer>
+</div>
+
+<!-- Confirmation Modal -->
+<div id="confirmation-modal" class="modal">
+    <div class="modal-content">
+        <p>Do you want to download this file?</p>
+        <button id="confirm-btn">Yes</button>
+        <button id="cancel-btn">Cancel</button>
     </div>
+</div>
+
+<script src="js/script.js"></script>
 </body>
 </html>
