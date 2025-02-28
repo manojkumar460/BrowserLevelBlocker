@@ -1,0 +1,44 @@
+##image
+##img
+##picture
+##figure
+##div[style*="background-image"]
+
+##[src*=".jpg"]
+##[src*=".jpeg"]
+##[src*=".png"]
+##[src*=".gif"]
+##[src*=".webp"]
+##[srcset*=".jpg"]
+##[srcset*=".jpeg"]
+##[srcset*=".png"]
+
+##[class*="image"]
+##[id*="image"]
+##div[class*="image"]
+##div[id*="image"]
+
+##meta[property="og:image"]
+##meta[name="twitter:image"]
+
+##[src^="data:image/"]
+||*.$image,media
+*##video
+*##img
+*##picture
+*##figure
+*##source[type="video/mp4"]
+*##source[type="video/webm"]
+*##source[type="image/*"]
+*##+js(set-constant, HTMLVideoElement.prototype.autoplay, false)
+*##+js(set-constant, HTMLMediaElement.prototype.preload, "none")
+*##+js(nowebrtc)
+*##+js(nopreload)
+*##+js(set-constant, HTMLVideoElement.prototype.autoplay, false)
+*##+js(set-constant, HTMLMediaElement.prototype.preload, "none")
+*##+js(nowebrtc)
+*##+js(nopreload)
+||youtube.com/get_video_info$script,important
+||youtube.com/yts/jsbin/player*
+||*.gif$image,media,third-party,domain=~example.com
+||trackingpixel.com^$image,media

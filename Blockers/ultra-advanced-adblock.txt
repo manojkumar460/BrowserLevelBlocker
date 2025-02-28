@@ -1,0 +1,534 @@
+! Title: Ultimate Ad & Tracker Blocking List
+! Description: Blocks ads, trackers, analytics, and intrusive elements globally.
+! Last updated: 2025-02-15
+! Total Rules: 500+
+
+! ------------------- Google & YouTube Ad Networks -------------------
+||doubleclick.net^
+||googleads.g.doubleclick.net^
+||googlesyndication.com^
+||adservice.google.com^
+||adservice.google.*^
+||partner.googleadservices.com^
+||www.googleadservices.com^
+||pagead2.googlesyndication.com^
+||tpc.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+||g.doubleclick.net^
+||youtubeads.googleapis.com^
+||youtubei.googleapis.com/youtubei/v1/ads^
+||r*.sn-*.googlevideo.com^
+||redirector.googlevideo.com^
+||s.youtube.com^
+||www.youtube.com/api/stats/ads^
+||www.youtube.com/api/stats/qoe^
+||www.youtube.com/pagead/conversion/^
+||yt3.ggpht.com^
+
+! ------------------- Social Media & Tech Giants Ads -------------------
+||ads.facebook.com^
+||connect.facebook.net^
+||pixel.facebook.com^
+||ads.twitter.com^
+||analytics.twitter.com^
+||ads.linkedin.com^
+||ads.snapchat.com^
+||ads.tiktok.com^
+||ads.pinterest.com^
+||analytics.pinterest.com^
+||ads.redditmedia.com^
+||ads.msn.com^
+||ads.apple.com^
+||ads.instagram.com^
+||ads.whatsapp.com^
+
+! ------------------- Ad Networks & Exchanges -------------------
+||adnxs.com^
+||rubiconproject.com^
+||pubmatic.com^
+||openx.net^
+||adroll.com^
+||outbrain.com^
+||taboola.com^
+||revcontent.com^
+||ligatus.com^
+||criteo.com^
+||smartadserver.com^
+||appnexus.com^
+||mediamath.com^
+||spotxchange.com^
+||33across.com^
+||advertising.com^
+||adform.net^
+||adblade.com^
+||adtechus.com^
+
+! ------------------- Video & Streaming Ads -------------------
+||ads.twitch.tv^
+||ads.vimeo.com^
+||ads.dailymotion.com^
+||ads.hulu.com^
+||ads.netflix.com^
+||ads.spotify.com^
+||ads.soundcloud.com^
+||ads.pandora.com^
+||www.twitch.tv/ad^
+||player.twitch.tv/ad^
+||api.twitch.tv/v5/ads^
+||spclient.wg.spotify.com/ads^
+||audio2.spotify.com/ad^
+||www.pandora.com/ad^
+
+! ------------------- Tracking & Analytics -------------------
+||google-analytics.com^
+||ssl.google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
+||segment.com^
+||mixpanel.com^
+||omniture.com^
+||scorecardresearch.com^
+||quantserve.com^
+||statcounter.com^
+||chartbeat.com^
+||kissmetrics.com^
+||matomo.org^
+||clicky.com^
+||piwik.pro^
+||flurry.com^
+||hotjar.com^
+||adobe-analytics.com^
+
+! ------------------- Crypto Miners & Fraud Sites -------------------
+||coinhive.com^
+||cryptoloot.pro^
+||authedmine.com^
+||coinerra.com^
+||webminepool.com^
+||minr.pw^
+||coinimp.com^
+||minexmr.com^
+||jaxx.io^
+||blockchain.info/ads^
+||bitcoin.com/ads^
+||coingecko.com/ads^
+
+! ------------------- Popups, Redirects, & Malvertising -------------------
+||popads.net^
+||popcash.net^
+||onclickads.net^
+||propellerads.com^
+||adhitzads.com^
+||adfly.com^
+||bit.ly^
+||shorte.st^
+||shortest.com^
+||bc.vc^
+||adf.ly^
+||adfoc.us^
+||linkbucks.com^
+||clkmon.com^
+||clktrax.com^
+||eclkmpbn.com^
+||juicysocks.com^
+||eghtotraumor.com^
+||impressionlab.com^
+||redirect.pizza^
+||doublepimp.com^
+
+! ------------------- In-Game & Mobile Ads -------------------
+||ads.mobvista.com^
+||ads.adcolony.com^
+||ads.vungle.com^
+||ads.chartboost.com^
+||ads.inmobi.com^
+||ads.ironsrc.com^
+||ads.supersonic.com^
+||ads.tremorhub.com^
+||ads.advertising.com^
+||ads.pangle.cn^
+||ads.mintegral.com^
+||ads.unityads.unity3d.com^
+
+! ------------------- Sponsored Search Ads -------------------
+||www.google.com/aclk^
+||www.google.com/ads/^
+||www.bing.com/ads/^
+||www.yahoo.com/ads/^
+||duckduckgo.com/ads/^
+||search.yahoo.com/search?p=ad^
+||search.aol.com/search?q=ad^
+||search.ask.com/web?q=ad^
+||search.yandex.com/search/?text=ad^
+||www.ecosia.org/search?q=ad^
+||www.qwant.com/?q=ad^
+||startpage.com/do/search?q=ad^
+! Title: Ultimate Ad & Tracker Blocking List
+! Description: Blocks ads, trackers, analytics, and intrusive elements globally.
+! Last updated: 2025-02-15
+! Total Rules: 500+
+
+! ------------------- Google & YouTube Ad Networks -------------------
+||doubleclick.net^
+||googleads.g.doubleclick.net^
+||googlesyndication.com^
+||adservice.google.com^
+||adservice.google.*^
+||partner.googleadservices.com^
+||www.googleadservices.com^
+||pagead2.googlesyndication.com^
+||tpc.googlesyndication.com^
+||securepubads.g.doubleclick.net^
+||g.doubleclick.net^
+||youtubeads.googleapis.com^
+||youtubei.googleapis.com/youtubei/v1/ads^
+||r*.sn-*.googlevideo.com^
+||redirector.googlevideo.com^
+||s.youtube.com^
+||www.youtube.com/api/stats/ads^
+||www.youtube.com/api/stats/qoe^
+||www.youtube.com/pagead/conversion/^
+||yt3.ggpht.com^
+
+! ------------------- Social Media & Tech Giants Ads -------------------
+||ads.facebook.com^
+||connect.facebook.net^
+||pixel.facebook.com^
+||ads.twitter.com^
+||analytics.twitter.com^
+||ads.linkedin.com^
+||ads.snapchat.com^
+||ads.tiktok.com^
+||ads.pinterest.com^
+||analytics.pinterest.com^
+||ads.redditmedia.com^
+||ads.msn.com^
+||ads.apple.com^
+||ads.instagram.com^
+||ads.whatsapp.com^
+
+! ------------------- Ad Networks & Exchanges -------------------
+||adnxs.com^
+||rubiconproject.com^
+||pubmatic.com^
+||openx.net^
+||adroll.com^
+||outbrain.com^
+||taboola.com^
+||revcontent.com^
+||ligatus.com^
+||criteo.com^
+||smartadserver.com^
+||appnexus.com^
+||mediamath.com^
+||spotxchange.com^
+||33across.com^
+||advertising.com^
+||adform.net^
+||adblade.com^
+||adtechus.com^
+
+! ------------------- Video & Streaming Ads -------------------
+||ads.twitch.tv^
+||ads.vimeo.com^
+||ads.dailymotion.com^
+||ads.hulu.com^
+||ads.netflix.com^
+||ads.spotify.com^
+||ads.soundcloud.com^
+||ads.pandora.com^
+||www.twitch.tv/ad^
+||player.twitch.tv/ad^
+||api.twitch.tv/v5/ads^
+||spclient.wg.spotify.com/ads^
+||audio2.spotify.com/ad^
+||www.pandora.com/ad^
+
+! ------------------- Tracking & Analytics -------------------
+||google-analytics.com^
+||ssl.google-analytics.com^
+||googletagmanager.com^
+||googletagservices.com^
+||segment.com^
+||mixpanel.com^
+||omniture.com^
+||scorecardresearch.com^
+||quantserve.com^
+||statcounter.com^
+||chartbeat.com^
+||kissmetrics.com^
+||matomo.org^
+||clicky.com^
+||piwik.pro^
+||flurry.com^
+||hotjar.com^
+||adobe-analytics.com^
+
+! ------------------- Crypto Miners & Fraud Sites -------------------
+||coinhive.com^
+||cryptoloot.pro^
+||authedmine.com^
+||coinerra.com^
+||webminepool.com^
+||minr.pw^
+||coinimp.com^
+||minexmr.com^
+||jaxx.io^
+||blockchain.info/ads^
+||bitcoin.com/ads^
+||coingecko.com/ads^
+
+! ------------------- Popups, Redirects, & Malvertising -------------------
+||popads.net^
+||popcash.net^
+||onclickads.net^
+||propellerads.com^
+||adhitzads.com^
+||adfly.com^
+||bit.ly^
+||shorte.st^
+||shortest.com^
+||bc.vc^
+||adf.ly^
+||adfoc.us^
+||linkbucks.com^
+||clkmon.com^
+||clktrax.com^
+||eclkmpbn.com^
+||juicysocks.com^
+||eghtotraumor.com^
+||impressionlab.com^
+||redirect.pizza^
+||doublepimp.com^
+
+! ------------------- In-Game & Mobile Ads -------------------
+||ads.mobvista.com^
+||ads.adcolony.com^
+||ads.vungle.com^
+||ads.chartboost.com^
+||ads.inmobi.com^
+||ads.ironsrc.com^
+||ads.supersonic.com^
+||ads.tremorhub.com^
+||ads.advertising.com^
+||ads.pangle.cn^
+||ads.mintegral.com^
+||ads.unityads.unity3d.com^
+
+! ------------------- Sponsored Search Ads -------------------
+||www.google.com/aclk^
+||www.google.com/ads/^
+||www.bing.com/ads/^
+||www.yahoo.com/ads/^
+||duckduckgo.com/ads/^
+||search.yahoo.com/search?p=ad^
+||search.aol.com/search?q=ad^
+||search.ask.com/web?q=ad^
+||search.yandex.com/search/?text=ad^
+||www.ecosia.org/search?q=ad^
+||www.qwant.com/?q=ad^
+||startpage.com/do/search?q=ad^
+# Block all third-party scripts and known malicious script types globally
+||*^$script,third-party
+||*/*.js$third-party
+||*.malicious^$script
+
+# Block popups and overlay clickbait elements globally
+||*^$popup
+||*.popunder^
+##[class*="popup"]
+##[class*="popunder"]
+
+# Block tracking pixels, invisible iframes, and scripts
+||*^$image,1x1
+||*^$subdocument,third-party
+||*tracking*.*
+||*.beacon$script
+
+# Remove advanced tracking and redirect parameters globally
+*$removeparam=redirect
+*$removeparam=ref
+*$removeparam=track
+*$removeparam=utm_source
+*$removeparam=utm_medium
+*$removeparam=utm_campaign
+*$removeparam=fbclid
+*$removeparam=gclid
+
+# Block known ad, tracking, and analytics domains globally
+||*.ads^
+||*.tracker^
+||*.doubleclick.net^
+||*.google-analytics.com^
+||*.facebook.net^
+||*.akamaihd.net^
+
+# Hide advanced ad banners, modals, overlays, and sticky ads globally
+##.ad
+##.ad-banner
+##.ad-container
+##.sticky-ad
+##.modal
+##.fullscreen-ad
+##[id*="ad"]
+##[class*="ad"]
+##[class*="sponsored"]
+##[href*="ad"]
+
+# Block autoplaying video or audio elements globally
+||*/*.mp4$media
+||*/*.webm$media
+||*/*.ogg$media
+||*/*.mp3$media
+||*/*.wav$media
+
+# Block fingerprinting scripts globally
+||*fingerprint*^$script
+||*canvas-fp*^$script
+||*webrtc-fp*^$script
+
+# Block cryptojacking scripts
+||*crypto*^$script
+||*miner*^$script
+||*.coinhive.com^
+||*.cryptominer^
+||*webminer*^$script
+
+# Block forced subscription popups and paywalls
+##.subscription-popup
+##[class*="paywall"]
+||*paywall*^$script
+
+# Force HTTPS globally (strict enforcement)
+||*^$secure
+||*^http://*$redirect=https://
+
+# Block cookie banners and GDPR notices
+##.cookie-banner
+##[id*="cookie"]
+##[class*="cookie"]
+||*cookie-consent*^
+||*gdpr*^
+
+# Block known phishing and malicious domains (examples, add more as needed)
+||*.phishingexample.com^
+||*.maliciousdomain.net^
+||*.fakeupdate.com^
+||*.ransomwarefiles.org^
+
+# Block unnecessary WebRTC connections globally (privacy protection)
+||*^$webrtc
+! ====== ULTRA ADVANCED AD & TRACKER BLOCKING ======
+
+||*.$popup,third-party
+||*.$third-party,script,subdocument,domain=~example.com
+||*.$xhr,script,third-party,domain=~example.com
+||*.$csp,document,inline-script,third-party
+||*.$webrtc,third-party
+||*.$image,media,script,third-party
+||*.$object,other
+
+! ====== AD NETWORKS ======
+||doubleclick.net^
+||adservice.google.com^
+||googlesyndication.com^
+||ads.yahoo.com^
+||amazon-adsystem.com^
+||bing.com/api/ads^
+||yandex.ru/ads^
+||taboola.com^
+||outbrain.com^
+||revcontent.com^
+||mgid.com^
+||adform.net^
+||pubmatic.com^
+||rubiconproject.com^
+||adnxs.com^
+||openx.net^
+||criteo.com^
+||quantserve.com^
+||media.net^
+||contextweb.com^
+||adroll.com^
+||appnexus.com^
+||exoclick.com^
+||popads.net^
+||trafficjunky.net^
+||juicyads.com^
+||bidvertiser.com^
+||propellerads.com^
+||clickadu.com^
+||hilltopads.net^
+||popcash.net^
+||popunder.net^
+
+! ====== TRACKING & ANALYTICS ======
+||google-analytics.com^
+||googletagmanager.com^
+||facebook.com/tr^
+||tiktok.com/api/tracking^
+||snapchat.com/tr^
+||linkedin.com/li/track^
+||cloudflareinsights.com^
+||scorecardresearch.com^
+||krxd.net^
+||demdex.net^
+||adsrvr.org^
+||bluekai.com^
+||tapad.com^
+||adobedtm.com^
+||chartbeat.com^
+||hotjar.com^
+||mixpanel.com^
+||newrelic.com^
+||kissmetrics.com^
+||optimizely.com^
+||segment.com^
+||heap.io^
+||fullstory.com^
+||mouseflow.com^
+||clicktale.net^
+
+! ====== AD BLOCKER DETECTION PREVENTION ======
+*##+js(aopw, document.createElement, function(tagName) { if (tagName === "script") return null; return document.__proto__.createElement.call(document, tagName); })
+*##+js(aopw, document.getElementById, function(id) { if (id.includes("ad") || id.includes("sponsored")) return null; return document.__proto__.getElementById.call(document, id); })
+*##+js(aopw, document.querySelector, function(selector) { if (selector.includes("ad") || selector.includes("sponsored")) return null; return document.__proto__.querySelector.call(document, selector); })
+*##+js(aopr, IntersectionObserver.prototype.observe, noopFunc)
+*##+js(aopr, IntersectionObserver.prototype.unobserve, noopFunc)
+*##+js(aopr, PerformanceObserver.prototype.observe, noopFunc)
+*##+js(aopr, PerformanceObserver.prototype.unobserve, noopFunc)
+
+! ====== INLINE ADS & SPONSORED CONTENT REMOVAL ======
+*##[id*="ad"]
+*##[class*="ad"]
+*##[id*="sponsored"]
+*##[class*="sponsored"]
+*##[id*="promo"]
+*##[class*="promo"]
+*##[id*="banner"]
+*##[class*="banner"]
+*##[id*="pop"]
+*##[class*="pop"]
+*##[id*="overlay"]
+*##[class*="overlay"]
+*##[id*="videoAd"]
+*##[class*="videoAd"]
+*##[id*="preloadAd"]
+*##[class*="preloadAd"]
+
+! ====== SCRIPT & NETWORK AD BLOCKING ======
+*##+js(nowebrtc)
+*##+js(nofetch-if, /ads/)
+*##+js(nxhr-if, /ads/)
+*##+js(aopw, navigator.userAgentData, undefined)
+*##+js(aopw, navigator.sendBeacon, undefined)
+*##+js(aopw, navigator.send, undefined)
+*##+js(aopw, navigator.userAgent, undefined)
+*##+js(aopw, document.referrer, "")
+
+! ====== BLOCK AUTO-PLAYING AD VIDEOS ======
+*##+js(set-constant, HTMLVideoElement.prototype.autoplay, false)
+*##+js(set-constant, HTMLMediaElement.prototype.preload, "none")
+*##+js(set-constant, HTMLVideoElement.prototype.preload, "none")
+*##+js(abort-current-inline-script, HTMLVideoElement.prototype.play)
+*##+js(abort-current-inline-script, HTMLAudioElement.prototype
