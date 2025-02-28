@@ -11,29 +11,7 @@
 *##+js(aopr, HTMLMediaElement.prototype.play, noopFunc)
 *##+js(aopr, HTMLVideoElement.prototype.play, noopFunc)
 *##+js(aopr, HTMLAudioElement.prototype.play, noopFunc)
-*##+js(aopw, HTMLMediaElement.prototype.load, noopFunc)
-*##+js(aopw, HTMLVideoElement.prototype.load, noopFunc)
-*##+js(aopw, HTMLAudioElement.prototype.load, noopFunc)
-*##+js(aopw, HTMLMediaElement.prototype.src, '')
-*##+js(aopw, HTMLVideoElement.prototype.src, '')
-*##+js(aopw, HTMLAudioElement.prototype.src, '')
-*##+js(aopw, HTMLMediaElement.prototype.canPlayType, function(){ return ""; })
-*##+js(aopw, HTMLVideoElement.prototype.canPlayType, function(){ return ""; })
-*##+js(aopw, HTMLAudioElement.prototype.canPlayType, function(){ return ""; })
-*##+js(aopw, MediaSource, undefined)
-*##+js(aopw, SourceBuffer, undefined)
-*##+js(aopw, navigator.mediaCapabilities, undefined)
-*##+js(aopw, navigator.mediaDevices, undefined)
-*##+js(aopw, navigator.requestMediaKeySystemAccess, undefined)
-*##+js(aopw, document.createElement, function(tagName){ if (["video", "audio", "source"].includes(tagName)) return null; return document.__proto__.createElement.call(document, tagName); })
-*##+js(aopw, document.getElementById, function(id){ if (id.includes("video") || id.includes("audio")) return null; return document.__proto__.getElementById.call(document, id); })
-*##+js(nowebrtc)
 *##+js(nopreload)
-*##+js(nofetch-if, /\.mp4|\.webm|\.mp3|\.m4a|\.ogg|\.wav|\.mov|\.avi|\.flac|\.mkv|\.aac|\.wmv|\.mpeg|\.mpg/)
-*##+js(nxhr-if, /\.mp4|\.webm|\.mp3|\.m4a|\.ogg|\.wav|\.mov|\.avi|\.flac|\.mkv|\.aac|\.wmv|\.mpeg|\.mpg/)
-||*.$media,script,object,other
-||*.$websocket
-||*.$csp
-||*.$webrtc
-||*.$xhr
-||*.$fetch
+*##+js(nowebrtc)
+*##+js(nofetch-if, /\.mp4|\.webm|\.mp3|\.m4a|\.ogg|\.wav/)
+||*.$media,script
